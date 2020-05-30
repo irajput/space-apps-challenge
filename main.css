@@ -1,0 +1,35 @@
+.container-fluid {
+  width: 100%;
+}
+
+.navbar {
+  background-color: #3797a4 !important;
+}
+
+.navbar-brand {
+  color: #e4e4e4 !important;
+}
+
+h2 {
+
+}
+
+.info-right::after, .info-right::before {
+  position: absolute;
+  content: '';
+  width: 100px;
+  height: 100px;
+  background: #fcf876;
+  bottom: -.5em;
+  z-index: 100;
+}
+
+.info-right::before {
+  right: 50%;
+  transform: skew(0, 25deg);
+}
+
+.info-right::after {
+  left: 50%;
+  transform: skew(0, -25deg);
+}
